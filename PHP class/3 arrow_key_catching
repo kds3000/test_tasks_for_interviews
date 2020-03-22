@@ -1,0 +1,6 @@
+$(document).keydown(function(event){
+    var key_arr = [37, 38, 39, 40];
+        if($.inArray(event.keyCode, key_arr) !== -1){
+            alert (event.key);
+        }
+});
