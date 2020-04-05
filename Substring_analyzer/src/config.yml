@@ -1,0 +1,15 @@
+---
+mime-types:
+- text/plain
+- text/html
+max_size: 50000
+available_modules_and_functions:
+  SubstringSearcher:
+  - stristr_search
+  HashComparator:
+  - hash_equality
+  KMPSearcher:
+  - kmp_search
+active_module: SubstringSearcher
+active_function: stristr_search
+...
