@@ -17,7 +17,7 @@ class KMPSearcher{
      *                'msg'=>success or fail message
      *               ]
      */
-    function kmp_search($substring, $file_path){
+    public function kmp_search($substring, $file_path){
         $file = file_get_contents($file_path);
         $result['result'] = array();
         // split data to work with symbols
@@ -59,7 +59,7 @@ class KMPSearcher{
      * @param array $substring splitted in symbols substring that we calculate prefix function for
      * @return array prefix function
      */
-    function find_prefix_func($substring){
+    private function find_prefix_func($substring){
         $i = 0;
         $j = $prefix_func[0] = -1;
         while($i<count($substring)){

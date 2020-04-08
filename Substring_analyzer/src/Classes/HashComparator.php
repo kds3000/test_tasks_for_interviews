@@ -15,7 +15,7 @@ class HashComparator
      *                'msg'=>success or fail message
      *               ]
      */
-    function hash_equality($substring, $file_path) {
+    public function hash_equality($substring, $file_path) {
         $file_content = file_get_contents($file_path);
         $substring_hash = hash("md5", $substring);
         $file_content_hash = hash("md5", $file_content);

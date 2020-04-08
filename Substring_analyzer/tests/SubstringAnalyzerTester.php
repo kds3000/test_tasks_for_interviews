@@ -24,7 +24,7 @@ class SubstringAnalyzerTester {
      * Tests two functions stristr_search and hash_equality from different modules.
      * For tests uses "python" substring and file python.txt that contains the only word "python"
      */
-    public function pythonTxtTest()
+    private function pythonTxtTest()
     {
         $this->analyzer_instance->setSubstring("python");
         $this->analyzer_instance->setFilepath('files_for_tests\python.txt', $GLOBALS["config_path"]);
@@ -48,7 +48,7 @@ class SubstringAnalyzerTester {
      * @param array $outputs array with correct answers to compare function result with
      * @throws Exception if outputs and inputs arrays are different sized
      */
-    public function substringOccurrenceUserFileTest($filepath, $inputs_dir, $inputs, $outputs)
+    private function substringOccurrenceUserFileTest($filepath, $inputs_dir, $inputs, $outputs)
     {
         if (count($inputs) !== count($outputs)) {
             throw new Exception('Number of inputs and outputs doesn`t match!');
@@ -72,7 +72,7 @@ class SubstringAnalyzerTester {
      * @param mixed $answer preliminary correct answer (expected function output)
      * @param integer test order number
      */
-    public function checkResultCorrectness ($class, $object, $function, $answer, $test_number)
+    private function checkResultCorrectness ($class, $object, $function, $answer, $test_number)
     {
         $result = $object->analyze($class, $function);
         if ($result['result'] === $answer)
@@ -100,5 +100,5 @@ class SubstringAnalyzerTester {
     }
 }
 
-$tester = new SubstringAnalyzerTester();
-$tester->runTests();
+#$tester = new SubstringAnalyzerTester();
+#$tester->runTests();

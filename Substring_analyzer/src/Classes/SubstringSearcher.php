@@ -18,7 +18,7 @@ class SubstringSearcher
      *                'msg'=>success or fail message
      *               ]
      */
-    function stristr_search($substring, $file_path) {
+    public function stristr_search($substring, $file_path) {
         $file_content = file_get_contents($file_path);
 
         // Stores file content before found needle

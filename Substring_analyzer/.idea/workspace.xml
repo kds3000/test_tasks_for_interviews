@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd9fdc7-fa65-49b1-91c3-98ff0ef672d7" name="Default Changelist" comment="" />
+    <list default="true" id="fcd9fdc7-fa65-49b1-91c3-98ff0ef672d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Classes/HashComparator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/HashComparator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/KMPSearcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/KMPSearcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/SubstringSearcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/SubstringSearcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SubstringAnalyzerTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SubstringAnalyzerTester.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +19,14 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1a7hRzRjbbylpmDzI2wGCaBgs1w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,10 +70,22 @@
       <updated>1586092536565</updated>
       <workItem from="1586092539466" duration="974000" />
       <workItem from="1586096759667" duration="1949000" />
+      <workItem from="1586335012310" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
